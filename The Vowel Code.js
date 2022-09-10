@@ -14,6 +14,7 @@
 // For the sake of simplicity, you can assume that any numbers passed into the function will correspond to vowels.
 let vowels = ['a','e','i','o','u'],
     numbers = ['1','2','3','4','5']
+    
 function encode(string) {
     string = string.split('')
     string.forEach((e,i,a)=>{
