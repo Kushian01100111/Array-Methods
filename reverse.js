@@ -12,7 +12,6 @@ function reverse(str){
   
       str.forEach((e,i,a)=>{
           if(i%2 !== 0){
-             ite++
               let substring = e.split("").reverse().join("")
               return a[i] = substring
           }
@@ -21,4 +20,4 @@ function reverse(str){
       return str.join(" ")
     }
 
-  reverse(" ")
+  reverse("sovic yotse ogla atisecen roñes samoc?")
